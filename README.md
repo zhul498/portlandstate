@@ -1,2 +1,2 @@
 # portlandstate
-Most/All coursework at Portland State University
+Most/all coursework at Portland State University
