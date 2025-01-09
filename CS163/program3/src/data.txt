@@ -1,0 +1,51 @@
+Wireless Keyboard|A compact wireless keyboard with Bluetooth connectivity|Electronics|Keyboard|29.99|15|001|TechStore|0
+Gaming Mouse|Ergonomic gaming mouse with customizable DPI settings|Electronics>Computer Accessories|Mouse|49.99|20|002|GamerGear|0
+Laptop Stand|Adjustable aluminum laptop stand for comfortable viewing|Electronics>Office Supplies>Computer Accessories|Stand|39.99|10|003|OfficeEase|0
+Noise-Canceling Headphones|Over-ear headphones with active noise cancellation|Electronics>Audio|Headphones|79.99|12|004|SoundWorld|0
+USB-C Hub|7-in-1 USB-C hub with HDMI, USB-A, and card reader slots|Electronics>Computer Accessories|Hub|24.99|30|005|GadgetPro|0
+Portable SSD|500GB portable SSD with USB 3.1 for fast data transfer|Electronics>Storage|Storage Device|89.99|25|006|DataMax|0
+Wireless Earbuds|Bluetooth 5.0 wireless earbuds with charging case|Electronics>Audio|Earbuds|49.99|50|007|ClearSound|0
+Mechanical Keyboard|RGB mechanical keyboard with blue switches|Electronics>Computer Accessories>Gaming|Keyboard|99.99|8|008|TypeKing|0
+Smartphone Stand|Adjustable smartphone holder with 360-degree rotation|Electronics>Mobile Accessories|Stand|12.99|40|009|MobileMounts|0
+Webcam|1080p HD webcam with built-in microphone|Electronics>Computer Accessories|Webcam|59.99|18|010|VideoPro|0
+Wireless Charger|Fast wireless charger compatible with Qi-enabled devices|Electronics>Mobile Accessories|Charger|29.99|35|011|ChargeHub|0
+Laptop Backpack|Water-resistant laptop backpack with USB charging port|Electronics>Computer Accessories>Accessories|Bag|45.99|22|012|UrbanCarry|0
+Bluetooth Speaker|Portable Bluetooth speaker with 10-hour battery life|Electronics>Audio>Portable|Speaker|35.99|16|013|BeatBox|0
+External Hard Drive|2TB external hard drive with USB 3.0 interface|Electronics>Storage|Storage Device|69.99|27|014|StoreIt|0
+Screen Protector|Tempered glass screen protector for smartphones|Electronics>Mobile Accessories|Screen Protector|9.99|75|015|ShieldMax|0
+Tablet Stand|Foldable tablet stand for desk use|Electronics>Computer Accessories|Stand|19.99|12|016|GadgetBase|0
+Wi-Fi Adapter|Dual-band Wi-Fi adapter with USB connection|Electronics>Networking|Adapter|14.99|40|017|NetConnect|0
+Gaming Headset|Over-ear gaming headset with noise-canceling mic|Electronics>Audio>Gaming|Headset|59.99|20|018|GameSound|0
+Smartwatch|Fitness smartwatch with heart rate monitor and GPS|Electronics>Wearables>Fitness|Watch|129.99|10|019|FitWear|0
+Laptop Cooling Pad|Cooling pad with dual fans for laptops up to 17"|Electronics>Computer Accessories|Cooling Pad|24.99|25|020|CoolTech|0
+HDMI Cable|6ft HDMI cable with 4K support|Electronics>Cables|Cable|7.99|100|021|CableWorld|0
+Smart Bulb|Wi-Fi smart bulb with app control and voice compatibility|Electronics>Smart Home|Light|12.99|45|022|HomeBright|0
+Power Bank|10000mAh power bank with dual USB ports|Electronics>Mobile Accessories|Battery Pack|29.99|30|023|PowerPro|0
+Laptop Sleeve|Neoprene laptop sleeve for 13" laptops|Electronics>Accessories>Office Supplies|Case|18.99|55|024|CarrySafe|0
+VR Headset|Virtual reality headset compatible with smartphones|Electronics>Gaming>VR|Headset|39.99|13|025|VRSphere|0
+Bluetooth Tracker|Key finder and Bluetooth tracker with app support|Electronics>Tracking Devices>Mobile Accessories|Tracker|19.99|40|026|FindMe|0
+Smart Plug|Wi-Fi enabled smart plug with app control|Electronics>Smart Home|Plug|9.99|60|027|PlugSmart|0
+USB Flash Drive|128GB USB 3.0 flash drive with metal casing|Electronics>Storage|USB|24.99|75|028|DataStash|0
+Portable Projector|Mini portable projector with HDMI and USB inputs|Electronics>Video>Portable|Projector|119.99|5|029|ProjectorPal|0
+Fitness Tracker|Waterproof fitness tracker with heart rate monitor|Electronics>Wearables>Fitness|Tracker|49.99|45|030|FitTech|0
+Graphic Tablet|Drawing tablet with pressure sensitivity for digital art|Electronics>Art Supplies>Computer Accessories|Tablet|79.99|8|031|Artisan|0
+Bluetooth Keyboard|Compact Bluetooth keyboard for tablets and phones|Electronics>Computer Accessories|Keyboard|34.99|28|032|KeyMaster|0
+Desktop Microphone|USB desktop microphone for streaming and gaming|Electronics>Audio>Accessories|Microphone|54.99|10|033|SoundStage|0
+LED Monitor Light|Clip-on LED light for computer monitor|Electronics>Lighting>Accessories|Light|29.99|15|034|VisionLight|0
+Smart Thermostat|Wi-Fi smart thermostat with energy-saving features|Electronics>Smart Home>HVAC|Thermostat|99.99|6|035|EcoHome|0
+Adjustable Desk Lamp|LED desk lamp with brightness and color control|Electronics>Lighting>Office Supplies|Lamp|19.99|22|036|BrightLite|0
+Car Charger|Dual USB car charger with fast charging support|Electronics>Mobile Accessories>Automotive|Charger|12.99|60|038|AutoCharge|0
+Thermal Label Printer|Thermal label printer for home and office use|Electronics>Office Supplies>Printers|Printer|129.99|7|039|LabelMaker|0
+Wireless Presentation Remote|Presentation remote with laser pointer|Electronics>Computer Accessories>Office Supplies|Remote|29.99|20|040|ProPresenter|0
+Drone with Camera|Quadcopter drone with HD camera and GPS|Electronics>Drones|Drone|199.99|4|041|SkyCapture|0
+Portable Document Scanner|Compact scanner for documents and photos|Electronics>Office Supplies|Scanner|79.99|13|042|ScanEasy|0
+Smart Home Security Camera|Wi-Fi security camera with motion detection|Electronics>Smart Home>Security|Camera|59.99|17|043|SecureHome|0
+Electric Toothbrush|Smart electric toothbrush with app tracking|Electronics>Personal Care>Health|Toothbrush|34.99|25|044|SmilePro|0
+Digital Picture Frame|Wi-Fi enabled digital frame for photos and videos|Electronics>Home Decor|Frame|79.99|10|045|MemoriesInFrame|0
+Massage Gun|Portable muscle massage gun with multiple speeds|Electronics>Personal Care>Fitness|Massager|89.99|8|046|RelaxPro|0
+Portable Fan|Mini rechargeable fan with adjustable speeds|Electronics>Portable>Home Appliances|Fan|15.99|50|047|CoolBreeze|0
+Portable Air Pump|Battery-operated air pump for inflatables|Electronics>Portable>Automotive|Pump|19.99|30|048|AirMate|0
+Cordless Vacuum Cleaner|Compact cordless vacuum for quick clean-ups|Electronics>Home Appliances>Cleaning|Vacuum|129.99|12|049|DustAway|0
+Wireless Doorbell|Smart wireless doorbell with app notification|Electronics>Smart Home>Security|Doorbell|39.99|25|050|DingDong|0
+Dash Cam|HD dash cam with night vision and motion detection|Electronics>Automotive>Security|Camera|69.99|9|051|AutoSecure|0
+
