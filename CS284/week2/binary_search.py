@@ -2,7 +2,7 @@
 
 def binary_search(array, to_find, length):
 	left = 0
-	right = length - 1
+	right = length
 	middle = (left + right)//2
 	while (left < right):
 		if array[middle] == to_find:
