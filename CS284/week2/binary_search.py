@@ -3,16 +3,14 @@
 def binary_search(array, to_find, length):
 	left = 0
 	right = length
-	middle = (left + right)//2
-	while (left < right):
+	while (left <= right):
+		middle = (left + right)//2
 		if array[middle] == to_find:
 			return middle
 		elif to_find > array[middle]:
 			left = middle + 1
-			middle = (left + right)//2
 		else:
 			right = middle - 1
-			middle = (left + right)//2
 	return -1
 
 def binary_search_recursion(array, to_find, left, right):
