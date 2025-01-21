@@ -1,0 +1,14 @@
+Explain how your algorithm works for this problem. 
+
+Where do we see interval halving at work here?
+We can see interval halving at
+
+What is the best-case scenario? 
+O(1), where the list is already sorted so we can just return the first element of the array.
+
+What is the worst-case scenario? 
+O(logn), where the minimum is at the far right. In that case we have to halve our scope logn many times. 
+
+Could this be done using Linear Search?
+Yes, this can be done using Linear Search by setting the minimum value to the first element in the array. After checking one by one whether or not current minimum
+is greater than the current one we are looking at, we can update our new minimum value.
