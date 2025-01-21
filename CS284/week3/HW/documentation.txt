@@ -1,7 +1,12 @@
 Explain how your algorithm works for this problem. 
+For this problem, I have one function called binary_search. Since the array is still sorted at some point, binary search can be applied. We know that if we pick
+a midpoint and compare it to the right or left, we know which side is sorted. Since we are looking for the minimum value in an array, the side where it is bigger
+than the middle will NOT contain the minimum number. Another check I added in the algorithm was to see if at the start, the left side is smaller than the right side.
+If it is, we know that it was not shifted at all (or shifted n times), meaning the minimum value is at index 0. Regular binary search is applied except for the fact
+that since middle can equal the smallest integer, we would set right = middle, and return the array[left] at the end of the loop. We should not return a -1 anyways.
 
 Where do we see interval halving at work here?
-We can see interval halving at
+We can see interval halving at comparisons and when the left or right pointer get updated. 
 
 What is the best-case scenario? 
 O(1), where the list is already sorted so we can just return the first element of the array.
