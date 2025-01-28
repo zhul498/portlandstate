@@ -1,0 +1,12 @@
+Is Reverse Polish Notation considered In-Order, Pre-Order, or Post-Order?
+
+Why does a stack data structure help us implement the reverse Polish Calculator?
+
+What distinguishes a stack data structure from a regular array data structure?
+
+What is the meaning of FILO as it refers to a data structure?
+
+What is the benefit of using ascii to implement our solution?
+
+Why do we implement the stack pointer (sp) as a List and not a simple variable?
+
