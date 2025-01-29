@@ -1,12 +1,20 @@
 Is Reverse Polish Notation considered In-Order, Pre-Order, or Post-Order?
+Reverse Polish Notation is considered post-order.
 
 Why does a stack data structure help us implement the reverse Polish Calculator?
+A stack essentially is the entire point of a reverse Polish calculator. We need to first know which values we are doing arithmetic on, and then once we encounter
+an operation, we use those values (which are in the stack at that point). 
 
 What distinguishes a stack data structure from a regular array data structure?
+An array data structure can be accessed anywhere in bounds, whereas a stack is only allowed to be accessed at its top.
 
 What is the meaning of FILO as it refers to a data structure?
+FILO - First in Last out. Which means the first object in will be the last one out. 
 
 What is the benefit of using ascii to implement our solution?
+The benefit of using ascii to implement our solution allows us to change types from strings to floats. This is necessary in order to do the calculations.
 
 Why do we implement the stack pointer (sp) as a List and not a simple variable?
+To pass by reference. Passing by reference allows for the functions to NOT create a copy. Instead, it will keep track of where top is.
+
 
