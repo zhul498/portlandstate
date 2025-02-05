@@ -9,17 +9,18 @@ def power(a, b):
 def powerOptimized(a, b):
 	if a == 0 and b == 0:
 		return -1
-	if b == 1:
-		return a
 	if b == 0:
 		return 1
+	if b == 1:
+		return a
 	e = b//2
-	ans = powerOptimized(a, e)
-	ans*=ans
-	if (e%2 == 0):
-		return ans
+	if (b%2 == 0):
+		v = powerOptimized(a, e)
+		v*=v
 	else:
-		return ans * a
+		v = powerOptimized(a, e)
+		v = v * v * a
+	return v
 
 
 def main():
