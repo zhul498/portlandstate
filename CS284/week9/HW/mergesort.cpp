@@ -3,9 +3,9 @@ using namespace std;
 
 
 // Function that returns a pair of 2 halves of an array
-pair<vector<int>> separate (vector<int> array)
+pair<vector<int>, vector<int>> separate (vector<int> array)
 {
-	pair<vector<int>> separated;
+	pair<vector<int>, vector<int>> separated;
 
 
 	return separated;
@@ -53,13 +53,17 @@ vector<int> merge (vector<int> array1, vector<int> array2)
 
 
 
-
-
-
-
-
-
 int main ( )
 {
+	vector<int> array;
+	int num = 0;
+	do 
+	{
+		cout << "Enter a number (-1 TO CANCEL): ";
+		cin >> num; cin.ignore(100, '\n');
+		array.push_back(num);
+	} while (num != -1);
+
+
 	return 0;
 }
