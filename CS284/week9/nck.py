@@ -22,13 +22,31 @@ def f(n, k, table):
 
 	return answer
 
+def f_tabulation(n, k, table):
+	i = 3
+	j = 2
+	while (i <= n):
+		while (j <= k):
+			table[i][j] = (table[i-1][j-1] + table[i-1][j])
+			j+=1
+		i+=1
+	
+	return table[n][k]
+		
+	
+
 def main ( ):
-	n = 100	
-	k = 10
+	n = 6
+	k = 3
 
 	# Build table initialized with -1 with n rows and k cols
 	table = [[-1] * (k+1) for _ in range(n+1)]
+	# base cases for tabulation
+	table[2][2] = 1
+	table[2][1] = 2
 	
-	print(f(n, k, table))
+	answer = f_tabulation(n, k, table)
+	for rows in table:
+		print(rows)
 
 main()
