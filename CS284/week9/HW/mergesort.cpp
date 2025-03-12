@@ -68,7 +68,7 @@ vector<int> merge (vector<int> array1, vector<int> array2)
 	if (rp < rightSize)
 	{
 
-		merged.insert(merged.end(), array1.begin() + rp, array1.end());
+		merged.insert(merged.end(), array2.begin() + rp, array2.end());
 	}
 
 	return merged;
