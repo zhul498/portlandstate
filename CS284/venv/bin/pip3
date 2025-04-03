@@ -1,4 +1,4 @@
-#!/home/lianzhu/CS284/bin/python3
+#!/home/lian/GitHub/portlandstate/CS284/venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
