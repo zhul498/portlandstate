@@ -4,10 +4,22 @@ LDFLAGS =
 
 
 
-all: 1-4.o 1-8.o 1-13.o 
+all: 1-4 1-8 1-13 
+
+
+
+
+
+1-4: 1-4.o 
 	gcc $(CLFAGS) 1-4.o -o 1-4
+
+1-8: 1-8.o 
 	gcc $(CLFAGS) 1-8.o -o 1-8
+
+1-13: 1-13.o
 	gcc $(CLFAGS) 1-13.o -o 1-13 -lm
+	
+
 
 1-4.o: 1-4.c
 	gcc $(CFLAGS) -c 1-4.c
