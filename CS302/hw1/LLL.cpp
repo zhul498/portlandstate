@@ -17,25 +17,18 @@ L_Node::L_Node(const Cuisine & source) : Cuisine(source), next(nullptr)
 
 L_Node::L_Node(const L_Node & source) : Cuisine(source), next(nullptr)
 {
-	// deep copy
-	if (source.next) next = new L_Node(*source.next);
-	else next = nullptr;
 }
 
 L_Node& L_Node::operator=(const L_Node & source)
 {
 	if (this == &source) return *this;
 	Cuisine::operator=(source);
-	if (next) delete next;
-	if (source.next) next = new L_Node(*source.next);
-	else next = nullptr;
 	return *this;
 
 }
 
 L_Node::~L_Node()
 {
-	delete next;
 	next = nullptr;
 }
 void L_Node::set_next(L_Node* next)
@@ -59,7 +52,17 @@ LLL::LLL(const LLL & source) : head(nullptr), tail(nullptr)
 	if (!source.head) return;
 	head = new L_Node(*source.head);
 	tail = head;
-	while (tail->get_next()) tail = tail->get_next();
+
+	// copy the rest
+	L_Node* sourceCurr = source.head->get_next();
+	while (sourceCurr)
+	{
+		L_Node* newNode = new L_Node(*sourceCurr);
+		tail->set_next(newNode);
+		tail = newNode;
+		sourceCurr = sourceCurr->get_next();
+	}
+	
 
 }
 LLL& LLL::operator=(const LLL & source)
@@ -68,7 +71,7 @@ LLL& LLL::operator=(const LLL & source)
 	L_Node* curr = head;
 	while (curr)
 	{
-		L_Node* temp = curr;
+		L_Node* temp = curr->get_next();
 		delete curr;
 		curr = temp;
 	}
@@ -78,7 +81,16 @@ LLL& LLL::operator=(const LLL & source)
 	{
 		head = new L_Node(*source.head);
 		tail = head;
-		while (tail->get_next()) tail = tail->get_next();
+
+		L_Node* sourceCurr = source.head->get_next();
+		while (sourceCurr)
+		{
+			L_Node* newNode = new L_Node(*sourceCurr);
+			tail->set_next(newNode);
+			tail = newNode;
+			sourceCurr = sourceCurr->get_next();
+		}
+
 	}
 	return *this;
 }

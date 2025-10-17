@@ -18,18 +18,13 @@ C_Node::C_Node(const Entertainer & source) : Entertainer(source), next(nullptr)
 
 C_Node::C_Node(const C_Node & source) : Entertainer(source), next(nullptr)
 {
-	// deep copy
-	if (source.next) next = new C_Node(*source.next);
-	else next = nullptr;
+
 }
 
 C_Node& C_Node::operator=(const C_Node & source)
 {
 	if (this == &source) return *this;
 	Entertainer::operator=(source);
-	if (next) delete next;
-	if (source.next) next = new C_Node(*source.next);
-	else next = nullptr;
 	return *this;
 }
 

@@ -29,7 +29,8 @@ Vendor& Vendor::operator=(const Vendor& source)
 {
 	if (this == &source) return *this;
 	if (this->name) delete [] this->name;
-	
+	this->name = nullptr;
+
 	if (source.name)
 	{
 		this->name = new char[strlen(source.name) + 1];
@@ -212,8 +213,11 @@ Entertainer::Entertainer() : groupName(nullptr), audienceSize(0), performanceTyp
 
 Entertainer::Entertainer(const Entertainer & source) : Vendor(source), groupName(nullptr), audienceSize(0), performanceType("")
 {
-	this->groupName = new char[strlen(source.groupName) + 1];
-	strcpy(this->groupName, source.groupName);
+	if (source.groupName)
+	{
+		this->groupName = new char[strlen(source.groupName) + 1];
+		strcpy(this->groupName, source.groupName);
+	}
 	this->audienceSize = source.audienceSize;
 	this->performanceType = source.performanceType;
 }
@@ -222,8 +226,12 @@ Entertainer& Entertainer::operator=(const Entertainer & source)
 {
 	if (this == &source) return *this;
 	if (this->groupName) delete [] this->groupName;
-	this->groupName = new char[strlen(source.groupName) + 1];
-	strcpy(this->groupName, source.groupName);
+	this->groupName = nullptr;
+	if (source.groupName)
+	{
+		this->groupName = new char[strlen(source.groupName) + 1];
+		strcpy(this->groupName, source.groupName);
+	}
 	this->audienceSize = source.audienceSize;
 	this->performanceType = source.performanceType;
 	Vendor::operator=(source);
