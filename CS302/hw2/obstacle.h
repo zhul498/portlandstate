@@ -120,4 +120,3 @@ class AdultObstacle: public Obstacle
 		bool isTimed; 
 
 };
-
